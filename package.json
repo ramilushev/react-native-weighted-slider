@@ -1,6 +1,6 @@
 {
   "name": "react-native-weighted-slider",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An enhanced slider component for react-native that distributes values disproportionately for a better UX",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/ramilushev/react-native-weighted-slider/issues"
   },
-  "homepage": "https://github.com/ramilushev/react-native-weighted-slider#readme"
+  "homepage": "https://github.com/ramilushev/react-native-weighted-slider#readme",
+  "dependencies": {
+    "d3-array": "^1.2.1",
+    "d3-scale": "^2.0.0",
+  },
 }
