@@ -21,4 +21,4 @@ You can set a ref on the slider and use `setNativeValue(value)`, to set a value 
 
 ## TODO:
 - [ ] Add a brief demonstration gif
-- [ ] Add runable example
+- [X] Add runable example
