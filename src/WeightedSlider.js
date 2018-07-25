@@ -8,6 +8,7 @@ export default class WeightedSlider extends PureComponent<Props> {
     weight: 1,
     initialValue: 1,
     step: 1,
+    precision: 0,
     useLinearSteps: true,
     quantize: 5,
     onSlidingComplete: () => null,
@@ -137,6 +138,7 @@ export default class WeightedSlider extends PureComponent<Props> {
 type Props = {
   weight: number,
   quantize: number,
+  precision: number,
   minValue: number,
   maxValue: number,
   disabled: boolean,
