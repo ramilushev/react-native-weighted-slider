@@ -16,6 +16,9 @@ Accepts regular react-native slider props + the ones below
 | quantize     | 5                  | Each non-linear base step will increase by 10/quantize amount e.g. with a quantize level of 5, the non-linear steps generated for [0 - 100] would be [0, 1, ...9, 10, 12, 14, 16 .... 96, 98, 100]. With a quantize level of 2, the non-linear steps generated will be [0, 1, ... 9, 10, 15, 20, 25 ... 90, 95, 100]. Applies only when useLinearSteps is set to false.
 | step         | 1                  | Space between linear steps. Applies only when useLinearSteps is set to true.
 
+### Direct manipulation
+You can set a ref on the slider and use `setNativeValue(value)`, to set a value directly.
+
 ## TODO:
 - [ ] Add a brief demonstration gif
 - [ ] Add runable example
