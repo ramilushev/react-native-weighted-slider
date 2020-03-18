@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/ramilushev/react-native-weighted-slider#readme",
   "dependencies": {
-    "d3-array": "^1.2.1",
-    "d3-scale": "^2.0.0"
+    "d3-array": "^2.4.0",
+    "d3-scale": "^3.2.1"
   }
 }
